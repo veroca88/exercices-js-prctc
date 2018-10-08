@@ -6,7 +6,8 @@ console.log(array_Clone([1, 2, [4, 0]]));
 [1, 2, [4, 0]] */
 function array_Clone (arr) {
   for (let i = 0; i < arr.length; i++) {
-    return arr
+    let newArrayClone = arr
+    return newArrayClone;
   }
 }
 console.log(array_Clone([1, 2, 4, 0]))
