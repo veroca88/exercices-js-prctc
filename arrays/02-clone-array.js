@@ -20,3 +20,9 @@ function arrayClone(arr) {
 
 console.log(arrayClone([1, 2, 4, 0]))
 console.log(arrayClone([1, 2, [4, 0]]))
+
+//Option 3
+var cloneArray = function (arr) {
+return arr.slice(0);
+}
+

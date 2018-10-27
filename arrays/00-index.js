@@ -1,9 +1,14 @@
-function firstArray (arr) {
-  let newArray = arr.shift()
-  return [newArray]
+function copyMachine(arr, num) {
+  let newArr = [];
+  while (num >= 1) {
+    // change code below this line
+    newArr.push(...arr)
+
+    // change code above this line
+    num--;
+  }
+  return newArr;
 }
-console.log(firstArray([7, 9, 0, -2]))
-console.log(firstArray([], 3))
-console.log(firstArray([7, 9, 0, -2], 3))
-console.log(firstArray([7, 9, 0, -2], 6))
-console.log(firstArray([7, 9, 0, -2], -3))
+
+// change code here to test different cases:
+console.log(copyMachine([true, false, true], 2));
