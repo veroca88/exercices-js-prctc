@@ -5,7 +5,7 @@ console.log(first([],3));
 console.log(first([7, 9, 0, -2],3));
 console.log(first([7, 9, 0, -2],6));
 console.log(first([7, 9, 0, -2],-3));
-Expected Output :
+Expected Output:
 7
 []
 [7, 9, 0]
