@@ -12,5 +12,4 @@ var swapCase = function (letters) {
   return swapEachCharacter
 }
 
-var sentences = 'The Quick Brown Fox'
-var swapEachLetter = swapCase(sentences)
+swapCase('The Quick Brown Fox')
