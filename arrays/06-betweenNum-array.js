@@ -12,5 +12,4 @@ var dashEvenNumber = function (numbers) {
   return evenNumbers
 }
 
-var numbersInput = ('025468')
-var finalNumbers = dashEvenNumber(numbersInput)
+dashEvenNumber('025468')
