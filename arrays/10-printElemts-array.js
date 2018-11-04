@@ -14,8 +14,8 @@ var printElements = function (arr) {
   for (var i = 0; i < arr.length; i++) {
     for (var j = 0; j < (arr.length - 1); j++) {
       if (j === 0) {
-        console.log('row ' + i)
-      } console.log(arr[i][j])
+        console.log('" ' + 'row ' + i + ' "')
+      } console.log('" ' + arr[i][j] + ' "')
     }
   }
 }
