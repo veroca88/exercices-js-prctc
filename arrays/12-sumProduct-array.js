@@ -6,8 +6,8 @@ var sumProduct = (arr) => {
   for (var i = 0; i < arr.length; i++) {
     sum += arr[i]
     product *= arr[i]
-  } console.log(sum)
-  console.log(product)
+  } console.log('sum: ' + sum)
+  console.log('product: ' + product)
 }
 
 sumProduct([2, 4, 7, 1, 6])
