@@ -241,8 +241,6 @@ console.log(rangeBetwee(4, 7));
 console.log(rangeBetwee(-4, 7));
 [-4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
 
-
-
 42. Write a JavaScript function to find the unique elements from two arrays.
 Test Data :
 console.log(difference([1, 2, 3], [100, 2, 1, 10]));
@@ -252,3 +250,8 @@ console.log(difference([1, 2, 3, 4, 5], [1, [2], [3, [[4]]],[5,6]]));
 console.log(difference([1, 2, 3], [100, 2, 1, 10])); 
 ["1", "2", "3", "10", "100"]
  //
+
+Extra
+
+43. Write a Javascript function to return the numbers of truthy value of our array.
+

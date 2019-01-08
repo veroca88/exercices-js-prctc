@@ -1,12 +1,18 @@
-/* 13. Write a JavaScript program to add items in an blank array and display the items.
+/* 13.Write a JavaScript program to add items in an blank array and display the items.
 Sample Screen : */
-var emptyArr = []
-var itema = 2
-var itemb = 16
-var itemc = 'q'
 
-emptyArr.push(itema)
-emptyArr.push(itemb)
-emptyArr.push(itemc)
+let emptyArr = []
 
-console.log(emptyArr)
+function addItems (items) {
+  for (let key in items) {
+    emptyArr.push(items[key])
+  }
+  return emptyArr
+}
+let items = {
+  itemOne: 'cat',
+  itemTwo: 'dog',
+  itemTree: 'bird'
+}
+
+console.log(addItems(items))
