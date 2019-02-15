@@ -1,12 +1,10 @@
-//1. Write a JavaScript function to check whether an `input` is an array or not.
-//Test Data :
-console.log(is_array('w3resource')); 
-console.log(is_array([1, 2, 4, 0]));
-//false
-//true
+// 1. Write a JavaScript function to check whether an `input` is an array or not.
+// Test Data :
+// false
+// true
 
-function is_array(arr) {
-  return Array.isArray(arr);
+function isArray (arr) {
+  console.log(Array.isArray(arr))
 }
- 
-
+isArray('w3resource')
+isArray([1, 2, 4, 0])
